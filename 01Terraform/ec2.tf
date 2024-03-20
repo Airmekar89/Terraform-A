@@ -6,6 +6,6 @@ resource "aws_instance" "tf-ec2vm" {
   key_name          = "LM-Class32"
   tags = {
     Name = "tf-ec2vm"
-    Environment = "Dev"
+    Env = "Dev"
   }
 }
