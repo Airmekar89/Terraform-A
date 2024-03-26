@@ -45,3 +45,13 @@ variable "ec2_key_name" {
   type        = string
   default     = "LM-Class32"
 }
+variable "environment_name" {
+  description = "name of the environment"
+  type        = string
+}
+variable "app_name" {
+  description = "Application Name"
+  type        = string
+}
+
+ 
