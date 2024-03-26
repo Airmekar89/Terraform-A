@@ -1,6 +1,6 @@
 # Create EC2 Instance
 resource "aws_instance" "my-ec2-vm" {
-  ami = var.ec2_ami_id
+  ami = data.aws_ami.ubuntu.id
   #instance_type          = var.ec2_instance_type[0]
   instance_type          = var.ec2_instance_type_map["small-apps"]
   key_name               = var.ec2_key_name
