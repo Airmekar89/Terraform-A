@@ -8,6 +8,7 @@ terraform {
     }
   }
   #Adding Backend using s3 for Remote State Storage
+  /*
   backend "s3" {
     bucket = "mytfs3bucket" #s3 bucket must have been previously created.
     key    = "dev/terraform.tfstate"
@@ -15,7 +16,7 @@ terraform {
     # For State Locking, must have created dynamodb table prior, with "LockID" as partition key or Primary key
     dynamodb_table = "tf-dev-state-table"
   }
-
+*/
 }
 
 # Provider Block

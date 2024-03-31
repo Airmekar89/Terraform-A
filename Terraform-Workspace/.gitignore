@@ -1,0 +1,7 @@
+*.pem
+id_rsa
+**/*/credentials
+.terraform
+*terraform.tfstate
+.terraform.lock*
+terraform.tfstate.*
