@@ -8,7 +8,7 @@ terraform {
     }
   }
   #Adding Backend using s3 for Remote State Storage
-  /*backend "s3" {
+  /* backend "s3" {
     bucket = "mytfs3bucket" #s3 bucket must have been previously created.
     key    = "dev/terraform.tfstate"
     region = "us-east-1"
